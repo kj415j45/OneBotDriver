@@ -1,0 +1,25 @@
+{
+    "name": "kj415j45/onebotdriver",
+    "license": "MIT",
+    "description": "OneBot driver for BotMan",
+    "keywords": [
+        "Bot",
+        "BotMan",
+        "OneBot"
+    ],
+    "authors": [
+        {
+            "name": "kj415j45",
+            "email": "kj415j45@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kjBot\\Driver\\OneBot\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "botman/botman": "^2.6"
+    }
+}
